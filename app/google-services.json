@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "47207438229",
+    "project_id": "quanlyphongtro-43c33",
+    "storage_bucket": "quanlyphongtro-43c33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47207438229:android:70a3f7a155a32488f2c89c",
+        "android_client_info": {
+          "package_name": "com.example.quanlyphongtro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJR22qCe8uq4X2J06lONTKZiWWldyu7Lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

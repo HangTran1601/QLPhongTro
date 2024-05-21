@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="8dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Image of the room with rounded corners -->
+        <ImageView
+            android:id="@+id/room_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pt"
+            android:contentDescription="Room Image"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="16dp"
+            android:padding="4dp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Container for text information -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <!-- Room address -->
+            <TextView
+                android:id="@+id/room_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="123 Main Street, City, Country"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"
+                android:textColor="@android:color/black" />
+
+            <!-- Room price -->
+            <TextView
+                android:id="@+id/room_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giá tiền: 20000/tháng"
+                android:textSize="14sp"
+                android:textColor="@color/design_default_color_primary" />
+
+            <TextView
+                android:id="@+id/room_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trạng thái: Đang chờ duyệt!"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.cardview.widget.CardView>
